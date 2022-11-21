@@ -12,7 +12,7 @@
             <ul class="navbar-nav">
 
                 <li class="nav-item">
-                    <a class="nav-link" href="/categories">sportapparaat</a>
+                    <a class="nav-link" href="/categories">autos</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link"  href="/register">registreren</a>

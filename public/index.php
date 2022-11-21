@@ -24,7 +24,6 @@ switch ($params[1]) {
     case 'categories':
         $titleSuffix = ' | Categories';
         $categories = getCategories();
-        //var_dump($categories);die;
         include_once "../Templates/categories.php";
         break;
 
@@ -66,7 +65,12 @@ switch ($params[1]) {
     default:
         $titleSuffix = ' | Home';
         include_once "../Templates/home.php";
+
+    case 'fietsen':
+        include_once ('../Templates/fietsen_simpel.php');
+        $titleSuffix = 'fietsen';
 }
+
 
 
 
